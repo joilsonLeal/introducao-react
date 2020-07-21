@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import picture from './assets/picture.webp';
+import TechList from './components/TechList';
 
 function App() {
-  return <img src={picture} />
+  return <TechList />
 }
 
 export default App;
