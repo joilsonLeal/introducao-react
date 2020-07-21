@@ -1,7 +1,10 @@
 import React from 'react';
+import './App.css';
+
+import picture from './assets/picture.webp';
 
 function App() {
-  return <h1>Hello world</h1>
+  return <img src={picture} />
 }
 
 export default App;
